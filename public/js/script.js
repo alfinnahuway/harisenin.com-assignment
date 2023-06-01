@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
       document.body.scrollTop >= 100 ||
       document.documentElement.scrollTop >= 100
     ) {
-      logo.setAttribute("src", "../img/hariseninlogo.png");
+      logo.setAttribute("src", "img/hariseninlogo.png");
       head.classList.remove("desktop:bg-transparent");
       head.classList.add("desktop:bg-white");
       head.style.transition = "background-color 1s linear";
@@ -19,7 +19,7 @@ window.addEventListener("scroll", function () {
     } else {
       head.classList.remove("desktop:bg-white");
       head.classList.add("desktop:bg-transparent");
-      logo.setAttribute("src", "../img/hariseninlogo2.png");
+      logo.setAttribute("src", "img/hariseninlogo2.png");
       link.forEach((e) => {
         e.classList.remove("text-[#291800]");
         e.classList.add("text-white");
