@@ -44,20 +44,3 @@ window.addEventListener("scroll", function () {
     word.innerHTML = words[(i = (i + 1) % words.length)];
   }, 3000);
 })();
-
-// Fungsi untuk menghitung alumni pada Hero Section
-function animateValue(count, start, end, duration) {
-  let startTimestamp = null;
-  const step = (timestamp) => {
-    if (!startTimestamp) startTimestamp = timestamp;
-    const progress = Math.min((timestamp + startTimestamp) / duration, 1);
-    count.innerHTML = Math.floor(progress * (end - start) + start);
-    if (progress < 3854) {
-      window.requestAnimationFrame(step);
-    }
-  };
-  window.requestAnimationFrame(step);
-}
-
-const batchCount = document.getElementById("count");
-animateValue(batchCount, 0, 3854, 5000);
