@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       brightness: {
@@ -11,13 +11,13 @@ module.exports = {
       },
       screens: {
         desktop: "1024px",
-        // => @media (min-width: 640px) { ... }
+        // => @media (min-width: 1024) { ... }
 
         tablet: "768px",
-        // => @media (min-width: 1024px) { ... }
+        // => @media (min-width: 768) { ... }
 
-        mobile: "450px",
-        // => @media (min-width: 1280px) { ... }
+        mobile: "400px",
+        // => @media (min-width: 450) { ... }
       },
     },
   },
