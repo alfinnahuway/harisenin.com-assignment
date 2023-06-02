@@ -2195,10 +2195,6 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-8 {
-  line-height: 2rem;
-}
-
 .text-\[\#0038de\] {
   --tw-text-opacity: 1;
   color: rgb(0 56 222 / var(--tw-text-opacity));
@@ -2644,12 +2640,28 @@ video {
     position: absolute;
   }
 
+  .mobile\:ml-11 {
+    margin-left: 2.75rem;
+  }
+
+  .mobile\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .mobile\:ml-\[5rem\] {
+    margin-left: 5rem;
+  }
+
   .mobile\:inline-block {
     display: inline-block;
   }
 
   .mobile\:hidden {
     display: none;
+  }
+
+  .mobile\:w-\[30px\] {
+    width: 30px;
   }
 
   .mobile\:grid-cols-1 {
@@ -2665,14 +2677,14 @@ video {
     background-color: rgb(246 247 247 / var(--tw-bg-opacity));
   }
 
-  .mobile\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   .mobile\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .mobile\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .mobile\:py-3 {
@@ -2685,13 +2697,17 @@ video {
     padding-bottom: 1rem;
   }
 
-  .mobile\:text-\[35px\] {
-    font-size: 35px;
+  .mobile\:text-\[25px\] {
+    font-size: 25px;
   }
 
-  .mobile\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .mobile\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .mobile\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
@@ -2756,12 +2772,6 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:text-\[40px\] {
-    font-size: 40px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   @media (min-width: 1024px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
@@ -2813,6 +2823,10 @@ video {
   .desktop\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .desktop\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .desktop\:text-\[48px\] {
