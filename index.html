@@ -121,8 +121,9 @@
 
     <!-- Background Image Hero Section -->
     <div
-      class="w-full h-[92.5vh] absolute z-[-1] bg-fixed bg-cover bg-center brightness-15"
-      style="background-image: url(./img/heroRisers.jpg)"
+      class="w-full h-screen absolute z-[-1] bg-fixed bg-cover bg-center brightness-15 bg-no-repeat transition-all duration-[2000ms]"
+      style="background-image: url(./img/moon.jpg)"
+      id="bgHero"
     ></div>
     <!-- End Background Image Hero Section -->
 
@@ -130,7 +131,9 @@
     <section class="min-h-screen flex justify-center z-10 bg-fixed" id="home">
       <main class="w-6/2 md:backdrop-filter-none flex flex-col justify-center">
         <div class="w-full">
-          <h2 class="text-center text-white font-semibold mobile:text-xs">
+          <h2
+            class="text-center text-white font-semibold desktop:text-base tablet:text-sm mobile:text-xs"
+          >
             Updated: 31 Maret 2023
           </h2>
           <h1
@@ -158,8 +161,9 @@
             sosial mereka.
           </p>
           <a
-            class="text-white text-center inline bg-[#0dad8e] desktop:px-6 desktop:py-4 desktop:text-base tablet:text-base mobile:px-5 mobile:py-3 mobile:text-xs"
+            class="text-white text-center inline bg-[#0dad8e] desktop:px-6 desktop:py-4 desktop:text-base tablet:text-base mobile:px-5 mobile:py-3 mobile:text-xs hover:drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)]"
             href=""
+            id="moonEffect"
           >
             Klik Untuk Konsultasikan Masa Depanmu. Gratis!
           </a>

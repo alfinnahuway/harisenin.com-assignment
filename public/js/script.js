@@ -44,3 +44,19 @@ window.addEventListener("scroll", function () {
     word.innerHTML = words[(i = (i + 1) % words.length)];
   }, 3000);
 })();
+
+const bgHero = document.getElementById("bgHero");
+const moon = document.getElementById("moonEffect");
+
+// Hover pada tombol konsultasi membuat efek bulan bersinar
+moon.addEventListener("mouseover", function () {
+  // bgHero.classList.remove("bg-cover");
+  // bgHero.classList.add("bg-100");
+  bgHero.classList.remove("brightness-15");
+});
+
+moon.addEventListener("mouseleave", function () {
+  // bgHero.classList.add("bg-cover");
+  // bgHero.classList.remove("bg-100");
+  bgHero.classList.add("brightness-15");
+});

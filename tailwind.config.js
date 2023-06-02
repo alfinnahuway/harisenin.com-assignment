@@ -19,6 +19,13 @@ module.exports = {
         mobile: "320px",
         // => @media (min-width: 320) { ... }
       },
+      backgroundSize: {
+        auto: "auto",
+        cover: "cover",
+        contain: "contain",
+        "50%": "50%",
+        100: "100rem",
+      },
     },
   },
   plugins: [],
