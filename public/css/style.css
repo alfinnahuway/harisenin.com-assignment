@@ -526,9 +526,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 400px;
+    max-width: 320px;
   }
 }
 
@@ -2570,9 +2570,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: 320px) {
     .sm\:container {
-      max-width: 400px;
+      max-width: 320px;
     }
   }
 
@@ -2639,7 +2639,7 @@ video {
   text-align: center;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .mobile\:absolute {
     position: absolute;
   }
