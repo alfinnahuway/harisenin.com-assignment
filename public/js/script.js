@@ -50,13 +50,11 @@ const moon = document.getElementById("moonEffect");
 
 // Hover pada tombol konsultasi membuat efek bulan bersinar
 moon.addEventListener("mouseover", function () {
-  // bgHero.classList.remove("bg-cover");
-  // bgHero.classList.add("bg-100");
+  bgHero.classList.add("scale-150");
   bgHero.classList.remove("brightness-15");
 });
 
 moon.addEventListener("mouseleave", function () {
-  // bgHero.classList.add("bg-cover");
-  // bgHero.classList.remove("bg-100");
+  bgHero.classList.remove("scale-150");
   bgHero.classList.add("brightness-15");
 });
